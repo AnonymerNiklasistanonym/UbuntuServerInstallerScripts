@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-# INSTALLER SCRIPT
-# cmake
+# -----------------------------------------------------
+# | INSTALLER SCRIPT: cmake
+# -----------------------------------------------------
 
-# Simply install it via the ubuntu package manager
+# Install it via the existing ubuntu package manager
 sudo apt-get update
-sudo apt-get install cmake
-
+sudo apt-get install build-essential cmake
