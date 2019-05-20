@@ -1,17 +1,16 @@
 #!/usr/bin/env bash
 
-# DOES NOT YET WORK!
-
 # -----------------------------------------------------
 # | INSTALLER SCRIPT: opencv
 # | > https://docs.opencv.org/4.1.0/d7/d9f/tutorial_linux_install.html
 # -----------------------------------------------------
 
+# Install the basics
 sudo apt-get update
 sudo apt-get install build-essential
-# required
+# Required
 sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
-# optional
+# Optional
 sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libdc1394-22-dev
 
 # Download OpenCV
@@ -30,6 +29,6 @@ make -j7
 # Install it
 sudo make install
 
-# Remove cloned directory
+# Remove extracted directory
 cd ../..
 rm -rf opencv-4.1.0
