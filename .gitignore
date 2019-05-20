@@ -1,0 +1,5 @@
+# Doxygen git clone
+doxygen/
+
+# Qt download runner
+./qt-opensource-linux-x64-5.12.3.run

@@ -1,0 +1,7 @@
+1. cmake
+2. git
+3. doxygen
+4. graphviz
+5. doxyqml
+6. miktex
+
