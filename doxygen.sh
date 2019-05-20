@@ -21,7 +21,7 @@ make
 # Then install the doxygen
 sudo make install
 
-# Then clean everything
+# Remove cloned directory
 cd ../..
 rm -rf doxygen
 
