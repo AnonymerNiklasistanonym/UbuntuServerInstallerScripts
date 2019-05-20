@@ -6,6 +6,8 @@ doxygen : chmod+x doxygen.sh;./doxygen.sh
 
 miktex : chmod+x miktex.sh;./miktex.sh
 
+astyle : chmod+x astyle.sh;./astyle.sh
+
 # Not yet successfully tested
 qt5 : chmod+x qt5.sh;./qt5.sh
 
