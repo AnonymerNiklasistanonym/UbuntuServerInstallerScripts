@@ -28,6 +28,14 @@ source /etc/environment
 
 A new variable looks like this: `KEY=VALUE`
 
+Variables set for the currently listed scripts:
+
+```
+OPENCV_DIR="/usr/local/lib/cmake/opencv4"
+Qt5_DIR="/opt/Qt5.12.3/5.12.3/gcc_64/lib/cmake/Qt5"
+BOOST_DIR="/opt/boost/lib/cmake/Boost-1.70.0"
+```
+
 ## Get a graphic window
 
 *Do only do this if there is no other way (like installing the latest version of Qt)*
