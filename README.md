@@ -1,14 +1,15 @@
-# GitLab runner setup
+# UbuntuServerInstallerScripts
+Installer scripts for university VM server
 
-This directory contain scripts to setup a GitLab runner on an Ubuntu 18.04 server that supports the programs of the here listed scripts.
+## GitLab runner setup
 
-## Installer
+This directory contains scripts to setup a GitLab runner on an Ubuntu 18.04 server that supports the programs of the here listed scripts.
 
-Run `make PROGRAM` to install a program for this project.
+## Install
 
-*(You can do it yourself, these are just the scripts that were used for the project GitLab runner server)*
+Run `make PROGRAM` to install a program with a helper script.
 
-## Install programs for the GitLab runner user
+## Install programs directly for the GitLab runner user account
 
 ```sh
 sudo su - gitlab-runner
@@ -37,3 +38,4 @@ sudo apt-get install xrdp ubuntu-desktop
 ```
 
 Then use on your other Linux computer with display the program `remmina` and enter from the `ssh ADDRESS`  command `ADDRESS`, then enter your normal user account credentials.
+
