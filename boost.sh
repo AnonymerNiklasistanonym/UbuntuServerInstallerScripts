@@ -19,7 +19,7 @@ rm boost_1_70_0.tar.gz
 # Build and install boost
 cd boost_1_70_0
 ./bootstrap.sh
-./b2
+./b2 install headers --prefix=/opt/boost
 
 # Remove extracted directory
 cd ..

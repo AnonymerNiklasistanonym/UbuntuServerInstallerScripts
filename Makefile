@@ -1,4 +1,4 @@
-all: cmake doxygen miktex qt5 opencv boost gitlab_runner
+all: cmake doxygen miktex astyle image_conversion qt5 opencv boost gitlab_runner
 
 cmake:
 	chmod +x cmake.sh;./cmake.sh
@@ -12,20 +12,20 @@ miktex:
 astyle:
 	chmod +x astyle.sh;./astyle.sh
 
-# Not yet successfully tested
 qt5:
 	chmod +x qt5.sh;./qt5.sh
+	echo "Set Qt5_DIR variable"
 
 opencv:
 	chmod +x opencv.sh;./opencv.sh
+	echo "Set OPENCV_DIR variable"
 
-# Not yet successfully tested
-boost:
-	chmod +x boost.sh;./boost.sh
-
-# Not yet successfully tested
 gitlab_runner:
 	chmod +x gitlab-runner.sh;./gitlab-runner.sh
 
-# WHICH VARIABLES NEED TO BE SET FOR CMAKE?
-# WRITE DOWN IN ONE SCRIPT / README!
+image_conversion:
+	chmod +x image_conversion.sh;./image_conversion.sh
+
+boost:
+	chmod +x boost.sh;./boost.sh
+	echo "Set BOOST_DIR variable"
